@@ -1,3 +1,6 @@
 body {
-  background:#CCEEF2;
+  background: #cceef2;
+}
+.strikeline > * {
+  text-decoration: line-through;
 }

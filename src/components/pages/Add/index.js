@@ -52,6 +52,7 @@ const Add = () => {
         updatedData.push({
           title: data.title,
           description: data.description ? data.description : "",
+          status: false,
         });
       }
       localStorage.setItem("todos", JSON.stringify(todos));
